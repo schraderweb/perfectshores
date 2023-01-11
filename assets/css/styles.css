@@ -996,6 +996,7 @@ nav.navbar {
 .copyright a {
   color: #ffffff;
   transition: all 0.3s ease-in-out;
+  text-align: center;
 }
 
 .footer-about a {
