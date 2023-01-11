@@ -808,6 +808,25 @@ nav.navbar {
   height: 900px;
 }
 
+.mobile-slider1 {
+  background: url(../img/mobile-slider1.jpeg);
+}
+.mobile-slider2 {
+  background: url(../img/mobile-slider2.webp);
+}
+.mobile-slider3 {
+  background: url(../img/mobile-slider3.webp);
+}
+
+.mobile-slider1,
+.mobile-slider2,
+.mobile-slider3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
 /* Hero Section CSS End */
 
 /* Products Section CSS Start */
@@ -1022,10 +1041,18 @@ nav.navbar {
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
-  .product-name h2,
+  .products-title h2,
   .testimonial-content h2,
   .video-title h2 {
     font-size: 36px;
+  }
+
+  .slider-content {
+    margin-left: -45px;
+  }
+
+  .product-name h2 {
+    font-size: 30px;
   }
 
   .products-wrapper {
