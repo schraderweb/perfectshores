@@ -392,7 +392,6 @@ button.nav-btns > a {
     font-weight: 400;
   }
   .call-to-action-end {
-    display: none;
     position: relative;
   }
   .nav-btn1,
@@ -1074,5 +1073,12 @@ nav.navbar {
 
   .video iframe {
     height: 400px;
+  }
+
+  .contact-title {
+    font-size: 28px !important;
+    padding: 0px !important;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
