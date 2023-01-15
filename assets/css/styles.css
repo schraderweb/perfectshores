@@ -700,6 +700,12 @@ nav.navbar {
   color: #ffff00 !important;
 }
 
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #1e2125;
+  background-color: #fdff42;
+}
+
 .navbar-toggler {
   border: 0 !important;
   margin-top: -15px;
