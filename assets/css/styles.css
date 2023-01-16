@@ -1145,6 +1145,7 @@ nav.navbar {
   .replacement-boat-hero-content h1 {
     line-height: 30px !important;
     padding-top: 0;
+    margin-top: -60px;
   }
   .replacement-boat-demo-title h2 {
     font-size: 36px;
