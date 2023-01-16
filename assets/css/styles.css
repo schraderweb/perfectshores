@@ -1088,3 +1088,68 @@ nav.navbar {
     margin-bottom: 20px;
   }
 }
+
+
+/* Replacement Boat Pages CSS Starts from Here */
+
+.replacement-boat-hero-wrapper {
+  background: url(../img/custom-replacement.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center-top;
+  height: 900px;
+}
+
+.replacement-boat-hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.replacement-boat-hero-content h1 {
+  color: #ffffff;
+  padding-top: 70px;
+}
+
+.replacement-boat-demo-wrapper {
+  padding: 50px 0;
+}
+
+.replacement-boat-demo-title h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+}
+
+/* Responsive CSS */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .replacement-boat-hero-wrapper {
+    height: 600px;
+  }
+  .replacement-boat-hero-content h1 {
+    padding-top: 20px;
+  }
+  .replacement-boat-demo-title h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .replacement-boat-hero-wrapper {
+    height: 500px;
+  }
+  .replacement-boat-hero-content h1 {
+    line-height: 30px !important;
+    padding-top: 0;
+  }
+  .replacement-boat-demo-title h2 {
+    font-size: 36px;
+  }
+}
+
+/* Replacement Boat Pages CSS Ends Here */
+
