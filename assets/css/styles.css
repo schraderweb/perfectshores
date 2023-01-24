@@ -1092,6 +1092,21 @@ nav.navbar {
 
 /* Replacement Boat Pages CSS Starts from Here */
 
+
+
+.replacement-aqua-hero-wrapper {
+  background: url(../img/aquaswwep-options.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center-top;
+  height: 900px;
+}
+
+
+
+
+
+
 .replacement-boat-hero-wrapper {
   background: url(../img/custom-replacement.jpg);
   background-size: cover;
