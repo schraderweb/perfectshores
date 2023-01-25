@@ -1104,6 +1104,16 @@ nav.navbar {
 
 
 
+.replacement-custom-hero-wrapper {
+  background: url(../img/custom-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center-top;
+  height: 900px;
+}
+
+
+
 
 
 
