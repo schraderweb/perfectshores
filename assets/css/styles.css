@@ -1135,9 +1135,9 @@ nav.navbar {
 
 
 
-@media screen and (min-device-width:698px) {
+@media screen and (min-device-width:1300px) {
   div#showgrid {
-    width: 698px;
+    width: 1300px;
     margin: auto;
   }
 }
@@ -1150,22 +1150,22 @@ div.column {
 .row {
   width: 100%;
   margin: auto;
-  background: #d2c49b;
+  background: #fff;
 
 }
 
-@media (min-device-width: 698px) {
+@media (min-device-width: 1300px) {
   .column {
-    width: 230px;
-    height: 230px;
+    width: 400px;
+    height: 400px;
     display: inline;
     float: left;
   }
 }
 
 .column {
-  width: 230px;
-  height: 230px;
+  width: 400px;
+  height: 400px;
   margin: auto;
 }
 
