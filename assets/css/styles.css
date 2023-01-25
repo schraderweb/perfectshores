@@ -1157,7 +1157,7 @@ div.column {
 @media (min-device-width: 1300px) {
   .column {
     width: 400px;
-    height: 400px;
+    height: 300px;
     display: inline;
     float: left;
   }
@@ -1165,7 +1165,7 @@ div.column {
 
 .column {
   width: 400px;
-  height: 400px;
+  height: 300px;
   margin: auto;
 }
 
