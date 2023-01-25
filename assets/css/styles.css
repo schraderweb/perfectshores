@@ -1135,41 +1135,6 @@ nav.navbar {
 
 
 
-@media screen and (min-device-width:1300px) {
-  div#showgrid {
-    width: 1300px;
-    margin: auto;
-  }
-}
-
-div.column {
-  border-style: solid;
-  border-width: 1px;
-}
-
-.row {
-  width: 100%;
-  margin: auto;
-  background: #fff;
-
-}
-
-@media (min-device-width: 1300px) {
-  .column {
-    width: 400px;
-    height: 300px;
-    display: inline;
-    float: left;
-  }
-}
-
-.column {
-  width: 400px;
-  height: 300px;
-  margin: 8px;
-}
-
-
 
 
 
