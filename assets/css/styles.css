@@ -1084,9 +1084,9 @@ nav.navbar {
 
 /* Start of Other pages hero */
 .main-hero {
-
+ 
   width:100%;
-  height:80vh;
+  height:100vh;
   background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/custom-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1114,7 +1114,9 @@ nav.navbar {
   text-align: center;
   padding: 10px 0;
 }
-
+.main-hero-mobile {
+  display: none;
+}
 
 /*  END OF other pages hero*/
 
@@ -1202,10 +1204,12 @@ nav.navbar {
   color:#fff;
 }
 .lightbox-gallery h2 {
+  font-size:2.5rem;
+  font-weight:600;
   font-weight:bold;
   margin-bottom:40px;
   padding-top:40px;
-  color:#fff
+  color:#102353;
 }
 
 .lightbox-gallery .intro {
@@ -1222,10 +1226,17 @@ nav.navbar {
 }
 .lightbox-gallery .item{
   padding-bottom:30px;
+  
 
 }
 
-.lb-dataContainer { position: absolute; top:-50px; left: 50%; transform: translateX(-50%); }
+.lb-dataContainer {
+   position: absolute;
+   top:-50px;
+   left: 50%;
+   transform: translateX(-50%); 
+  
+  }
 
 /* Responsive CSS */
 
@@ -1256,12 +1267,35 @@ nav.navbar {
   .lightbox-gallery h2{
     margin-bottom:25px;padding-top:25px;font-size:24px
   }
-  
-.lb-data .lb-close {
-  margin-top:-350px;
-
-
-}
+  .main-hero{
+    display: none;
+  }
+  .main-hero-mobile {
+    display: block;
+    background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/main-hero-mobile-2.jpg");
+    width: 100%;
+    height:70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-hero-mobile .content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main-hero-mobile .content h1 {
+    color: #ffffff;
+    padding-top: 70px;
+    text-shadow: black 3px 3px 5px;
+    max-width: 1200px;
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 70px !important;
+    text-align: center;
+    padding: 10px 0;
+  }
 
 }
 
