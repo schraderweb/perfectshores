@@ -1225,9 +1225,7 @@ nav.navbar {
 
 }
 
-.lb-data .lb-close {
-  margin-top:-550px;
-}
+
 
 /* Responsive CSS */
 
@@ -1258,6 +1256,12 @@ nav.navbar {
   .lightbox-gallery h2{
     margin-bottom:25px;padding-top:25px;font-size:24px
   }
+  
+.lb-data .lb-close {
+  margin-top:-350px;
+
+
+}
 
 }
 
