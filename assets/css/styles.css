@@ -1272,10 +1272,11 @@ nav.navbar {
   }
   .main-hero-mobile {
     display: block;
-    background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/main-hero-mobile-2.jpg");
+    background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/main-hero-mobile-3.jpg");
     width: 100%;
-    height:70vh;
+    height:80vh;
     background-size: cover;
+    background-position:25%;
     background-repeat: no-repeat;
   }
   .main-hero-mobile .content {
