@@ -103,14 +103,7 @@ button.nav-btns > a {
   text-transform: uppercase;
   text-align: center;
 }
-.hero-main-heading {
-  font-size: 4.5rem;
-  font-weight: 700;
-  font-family: "Josefin Sans", sans-serif;
-  line-height: 70px !important;
-  text-align: center;
-  padding: 10px 0;
-}
+
 .hero-btn {
   font-size: 17px;
   margin-right: 2rem;
@@ -1089,6 +1082,41 @@ nav.navbar {
   }
 }
 
+/* Start of Other pages hero */
+.main-hero {
+
+  width:100%;
+  height:80vh;
+  background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/custom-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main-hero .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.main-hero .content h1 {
+  color: #ffffff;
+  padding-top: 70px;
+  text-shadow: black 3px 3px 5px;
+  max-width: 1200px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 70px !important;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+/*  END OF other pages hero*/
 
 /* Replacement Boat Pages CSS Starts from Here */
 
@@ -1164,6 +1192,43 @@ nav.navbar {
   color: #000000;
 }
 
+/* Gallery page */
+
+.lightbox-gallery{
+  background-color: #fff;
+  overflow-x: hidden;
+}
+.lightbox-gallery p{
+  color:#fff;
+}
+.lightbox-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:#fff
+}
+
+.lightbox-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+.lightbox-gallery .intro p{
+  margin-bottom:0;
+}
+.lightbox-gallery .photos{
+  padding-bottom:20px;
+
+}
+.lightbox-gallery .item{
+  padding-bottom:30px;
+
+}
+
+.lb-data .lb-close {
+  margin-top:-550px;
+}
+
 /* Responsive CSS */
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1190,7 +1255,9 @@ nav.navbar {
   .replacement-boat-demo-title h2 {
     font-size: 36px;
   }
-}
+  .lightbox-gallery h2{
+    margin-bottom:25px;padding-top:25px;font-size:24px
+  }
 
-/* Replacement Boat Pages CSS Ends Here */
+}
 
