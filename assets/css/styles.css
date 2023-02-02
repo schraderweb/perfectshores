@@ -1120,6 +1120,89 @@ nav.navbar {
 
 /*  END OF other pages hero*/
 
+/* Start of midlander hero */
+
+.main-hero-midlander{
+ 
+  width:100%;
+  height:100vh;
+  background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/boat-hoists-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main-hero-midlander .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.main-hero-midlander .content h1 {
+  color: #ffffff;
+  padding-top: 70px;
+  text-shadow: black 3px 3px 5px;
+  max-width: 1200px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 70px !important;
+  text-align: center;
+  padding: 10px 0;
+}
+.main-hero-midlander-mobile {
+  display: none;
+}
+
+
+/* End of midlander hero */
+
+/* Start of aquasweep muck blaster */
+
+.main-hero-blaster{
+ 
+  width:100%;
+  height:100vh;
+  background-image: url("../img/aquasweep-options.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:100px;
+
+}
+
+.main-hero-blaster .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.main-hero-blaster .content h1 {
+  color: #ffffff;
+  padding-top: 70px;
+  text-shadow: black 3px 3px 5px;
+  max-width: 1200px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 70px !important;
+  text-align: center;
+  padding: 10px 0;
+}
+.main-hero-blaster-mobile {
+  display: none;
+}
+
+/* End of aquasweep muck blaster */
+
+
+
 /* Replacement Boat Pages CSS Starts from Here */
 
 
@@ -1392,33 +1475,24 @@ form.contFrm {
   color:#102353;
 }
 
-@media (max-width: 575.99px) {
-  .section-contact {
-    padding: 80px 60px;
-  }
-
-  .section-contact .header-section .title {
-    font-size: 40px;
-  }
-
-  .section-contact .header-section .big-title {
-    font-size: 80px;
-  }
-
-  .section-contact .header-section .description {
-    font-size: 14px;
-  }
-
-  
-}
-
-
-
-
 
 /* Responsive CSS */
 
 @media (min-width: 768px) and (max-width: 991px) {
+  
+  .main-hero-blaster {
+     
+    background-size: cover;
+    width:100%;
+    height:30vh;
+     
+  }
+  .main-hero-blaster .content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .replacement-boat-hero-wrapper {
     height: 600px;
   }
@@ -1438,38 +1512,6 @@ form.contFrm {
 
   .section-contact .header-section .big-title {
     font-size: 100px;
-  }
-  .main-hero{
-    display: none;
-  }
-  .main-hero-mobile {
-    display: block;
-    width: 100%;
-    height:55vh;
-    background-image:url("../img/main-hero-mobile-4.jpg");
-    background-size:cover;
-
-    background-repeat: no-repeat;
-  }
-  .main-hero-mobile .content {
-    
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .main-hero-mobile .content h1 {
-    color: #ffffff;
-    padding-top: 70px;
-    text-shadow: black 3px 3px 5px;
-    max-width: 1200px;
-    font-size: 2.5rem;
-    font-weight: 700;
-    font-family: "Josefin Sans", sans-serif;
-    line-height: 50px !important;
-    text-align: center;
-    padding: 10px 0;
-    
   }
 
   .sec-pad {
@@ -1543,6 +1585,71 @@ form.contFrm {
     text-align: center;
     padding: 10px 0;
   }
+
+  .main-hero-midlander{
+    display: none;
+  }
+  .main-hero-midlander-mobile {
+    display: block;
+    width: 100%;
+    height:60vh;
+    background-image:url("../img/boat-hoists-hero-mobile-1.jpg");
+    background-size:contain;
+     background-position:50%;
+    background-repeat: no-repeat;
+  }
+  .main-hero-midlander-mobile .content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main-hero-midlander-mobile .content h1 {
+    color: #ffffff;
+    padding-top: 70px;
+    text-shadow: black 3px 3px 5px;
+    max-width: 1200px;
+    font-size: 2.8rem;
+    font-weight: 900;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 50px !important;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .main-hero-blaster{
+    display: none;
+  }
+  .main-hero-blaster-mobile {
+    display: block;
+    width: 100%;
+    height:60vh;
+    background-image:url("../img/aquasweep-options-mobile-1.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:40px;
+
+  }
+  .main-hero-blaster-mobile .content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main-hero-blaster-mobile .content h1 {
+    color: #ffffff;
+    padding-top: 70px;
+    text-shadow: black 3px 3px 5px;
+    max-width: 1200px;
+    font-size: 2.8rem;
+    font-weight: 900;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 50px !important;
+    text-align: center;
+    padding: 10px 0;
+  }
+
   .contact-detail span {
     width: auto;
   }
