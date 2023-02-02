@@ -1241,97 +1241,152 @@ nav.navbar {
   font-weight: 800;
 }
 
-/* Contact Us */
-
-.section-contact {
-  padding: 120px;
-  background-color: #fff;
+/* Start Contact Us */
+ul {
+  list-style: none;
 }
 
-.section-contact .header-section .title {
+input {
+  overflow: hidden;
+}
+
+.section-title {
   position: relative;
-  margin-bottom: 17px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 55px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 35px;
 }
 
-.section-contact .header-section .title .dot {
-  display: inline-block;
-  position: absolute;
-  bottom: 8px;
-  width: 8px;
-  height: 8px;
-  margin-left: 3px;
-  background-color: #102353;
+.sec-pad {
+  padding: 60px 0 0;
+  margin: 50px 0;
 }
 
-.section-contact .header-section .big-title {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translate(-50%, 70%);
-  font-size: 120px;
-  font-weight: 700;
-  opacity: 0.15;
+.contact-sec {
+  align-items: center;
+  display: flex;
 }
 
-.section-contact .form-contact {
+.contact-sec .contact-ul li,
+.contact-ul b {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  word-wrap: break-word;
 }
 
-.section-contact .form-contact .single-input {
-  position: relative;
-  margin-top: 40px;
+.contact-sec .contact-ul i {
+  font-size: 18px;
+  padding: 10px;
+  margin-right:10px;
+  border-radius: 50%;
+}
+.contact-detail a {
+  color: #000;
+  text-decoration: none;
 }
 
-.section-contact .form-contact .single-input i {
-  position: absolute;
-  top: 5px;
-  left: 15px;
-  color: #102353;;
+.contact-sec .contact-ul li b:hover {
+  color: rgb(177, 176, 175);
 }
 
-.section-contact .form-contact .single-input input,
-.section-contact .form-contact .single-input textarea {
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid #102353;;
-  padding-left: 50px;
-  padding-bottom: 15px;
-  font-size: 15px;
-  font-weight: 700;
-  text-transform: uppercase;
-  transition: border 0.3s;
+.contact-sec .contact-ul li .fa-location-dot {
+  color: #102353;
+  border: 2px solid #102353;
 }
 
-.section-contact .form-contact .single-input input::placeholder,
-.section-contact .form-contact .single-input textarea::placeholder {
-  color: rgba(7, 57, 92, 0.3);
+.contact-sec .contact-ul li .fa-phone {
+  color: #102353;
+  border: 2px solid #102353;
 }
 
-.section-contact .form-contact .single-input input:focus,
-.section-contact .form-contact .single-input textarea:focus {
-  border-color: #102353;
+.contact-sec .contact-ul li .fa-envelope {
+  color: #102353;
+  border: 2px solid #102353;
 }
 
-.section-contact .form-contact .single-input textarea {
-  height: 150px;
-  min-height: 50px;
+.contact-detail span {
+  width: 400px;
+  display: flex;
+  justify-content: center;
 }
-
-.section-contact .form-contact .submit-input input {
-  margin-top: 40px;
-  padding: 15px 50px;
-  background-color: #102353;;
+.contact-detail span a {
+  font-size: 20px;
+  padding: 6px 12px;
+  color: #000;
+  border-radius: 50%;
+  margin: 0px 5px;
+}
+.contact-detail span .fb {
+  color: #102353;
+  border: 3px solid #102353;
+}
+.contact-detail span .fb:hover {
   color: #fff;
-  border: none;
-  font-weight: 700;
-  transition: background-color 0.3s;
+  background-color: #3b5998;
 }
 
-.section-contact .form-contact .submit-input input:hover {
-  background-color: #102353;;
+.contact-detail span .insta {
+  color: #102353;
+  border: 3px solid #102353;
 }
+.contact-detail span .insta:hover {
+  color: #fff;
+  background-color: #833ab4;
+}
+
+.contact-detail span .twitter {
+  color: #102353;
+  border: 3px solid #102353;
+}
+.contact-detail span .twitter:hover {
+  color: #fff;
+  background-color: #fc4040;
+}
+
+form.contFrm {
+  max-width:100%;
+  margin: auto;
+}
+
+.inptFld {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  margin: 0 0 10px;
+  border-radius: 8px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #000;
+}
+
+.inptFld:focus {
+  outline-offset: -4px;
+  outline: 1px solid #f93;
+}
+
+.contFrm textarea {
+  height: 150px;
+  padding-top: 5px;
+}
+.inptBtn {
+  height: 50px;
+  border: 0;
+  background: #102353;
+  font-size: 14px;
+  color: #fff;
+  margin: auto;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+}
+.inptBtn:hover {
+  color:#b7b5b5;
+}
+
+/* End Contact Us */
 
 .global-color {
   color:#102353;
@@ -1353,6 +1408,8 @@ nav.navbar {
   .section-contact .header-section .description {
     font-size: 14px;
   }
+
+  
 }
 
 
@@ -1395,11 +1452,11 @@ nav.navbar {
     background-repeat: no-repeat;
   }
   .main-hero-mobile .content {
+    
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
   }
   .main-hero-mobile .content h1 {
     color: #ffffff;
@@ -1414,6 +1471,29 @@ nav.navbar {
     padding: 10px 0;
     
   }
+
+  .sec-pad {
+    padding: 20px 0 0px;
+  }
+
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+    font-size: 18px;
+  }
+
+  .contact-sec .contact-ul i {
+    font-size: 14px;
+    padding: 6px;
+    margin-right: 6px;
+  }
+
+  .inptFld {
+    height: 40px;
+    margin: 0 0 10px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
@@ -1429,7 +1509,9 @@ nav.navbar {
     font-size: 36px;
   }
   .lightbox-gallery h2{
-    margin-bottom:25px;padding-top:25px;font-size:24px
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px
   }
   .main-hero{
     display: none;
@@ -1454,14 +1536,47 @@ nav.navbar {
     padding-top: 70px;
     text-shadow: black 3px 3px 5px;
     max-width: 1200px;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 2.8rem;
+    font-weight: 900;
     font-family: "Josefin Sans", sans-serif;
     line-height: 50px !important;
     text-align: center;
     padding: 10px 0;
   }
-  
+  .contact-detail span {
+    width: auto;
+  }
+  .contact-detail span a {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #000;
+    border-radius: 50%;
+    margin: 0px 5px 20px;
+  }
+
+  .section-title {
+    font-size: 26px;
+    font-weight: 500;
+   
+  }
+  .contact-sec {
+    border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
+  }
+
+  .contact-sec .contact-ul i {
+    border: none;
+  }
+  .inptFld {
+    height: 36px;
+    margin: 0 0 8px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+    font-size: 16px;
+  }
 
 }
 
