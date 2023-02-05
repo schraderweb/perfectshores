@@ -173,7 +173,7 @@
             </div>
       
             <div class="col-md-6 col-lg-6">
-              <form action="#" class="contFrm" method="POST">
+              <form action="https://formsubmit.co/your@email.com" class="contFrm" method="POST">
                 <div class="row">
                   <div class="col-sm-6">
                     <input type="text" name="name" placeholder="Your Name" class="inptFld" required />
@@ -188,15 +188,17 @@
                   </div>
       
                   <div class="col-sm-6">
-                    <input type="text" name="sub" placeholder="Subject" class="inptFld" required />
+                    <input type="text" name="subject" placeholder="Subject" class="inptFld" required />
                   </div>
       
                   <div class="col-12">
-                    <textarea class="inptFld" rows="" cols="" placeholder="Your Message..." required></textarea>
+                    <textarea class="inptFld" rows="" cols="" name="message" placeholder="Your Message..." required></textarea>
                   </div>
-      
+                  <input type="text" name="_honey" style="display:none">
+                  <input type="hidden" name="_template" value="table">
+                  <input type="hidden" name="_subject" value="Contact Response from Perfect Shore Site!">
                   <div class="col-12">
-                    <input type="submit" name="submit" value="SUBMIT" class="inptBtn" />
+                    <input type="submit" name="submit" type="submit" value="SUBMIT" class="inptBtn" />
                   </div>
                 </div>
               </form>
