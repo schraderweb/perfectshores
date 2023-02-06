@@ -1442,6 +1442,7 @@ form.contFrm {
   padding: 0 20px;
   font-size: 16px;
   color: #000;
+  border: 1px solid #000000;
 }
 
 .inptFld:focus {
@@ -1474,7 +1475,30 @@ form.contFrm {
 .global-color {
   color:#102353;
 }
+/* Start Thank You Page */
+.thank-you {
+  width: 100%;
+  padding:5% 10% 5%;
 
+ 
+}
+
+.thank-you .container {
+ text-align: center;
+ padding: 10% 20% 10% 20%;
+}
+
+.thank-you .container h2 {
+  color:#3D1B62;
+  font-size:2.5em;
+  line-height:4.5rem;
+  letter-spacing:0.1em;
+  font-weight:700;
+  margin-bottom:10px;
+
+}
+
+/* End Start Thank You Page */
 
 /* Responsive CSS */
 
