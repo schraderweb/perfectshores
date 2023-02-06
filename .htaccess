@@ -1,3 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-ErrorDocument 404 https://perfectshores.com/page-not-found.html
