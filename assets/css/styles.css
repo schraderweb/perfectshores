@@ -1157,11 +1157,18 @@ nav.navbar {
   padding: 10px 0;
 }
 .main-hero-sauna-mobile {
-  display: none;
+ display: block;
+    width: 100%;
+    height:60vh;
+    background-image:url("../img/sauna-m.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:40px;
 }
 
 
-/* End of midlander hero */
+/* End of sauna hero */
 
 
 
