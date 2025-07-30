@@ -1169,6 +1169,55 @@ nav.navbar {
 
 
 
+/* Start of floating dock hero */
+
+.main-hero-floating{
+ 
+  width:100%;
+  height:100vh;
+  background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/floating-dock.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main-hero-floating .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.main-hero-floating .content h1 {
+  color: #ffffff;
+  padding-top: 70px;
+  text-shadow: black 3px 3px 5px;
+  max-width: 1200px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 70px !important;
+  text-align: center;
+  padding: 10px 0;
+}
+.main-hero-floating-mobile {
+ display: none;
+   
+}
+
+
+/* End of floating dock hero */
+
+
+
+
+
+
+
+
+
 
 
 
