@@ -1175,7 +1175,7 @@ nav.navbar {
  
   width:100%;
   height:100vh;
-  background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/floating-dock.jpg");
+  background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/floating-dock-header.webp");
   background-repeat: no-repeat;
   background-size: cover;
 
