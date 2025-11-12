@@ -1162,6 +1162,61 @@ nav.navbar {
 }
 
 
+
+
+
+
+.main-hero-ee8g-sauna{
+ 
+  width:100%;
+  height:100vh;
+  background-image: linear-gradient(0deg, rgba(2, 2, 2, 0.194), rgba(16, 16, 16, 0.066)), url("../img/saunalife-ee8g.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main-hero-ee8g-sauna .content {
+  position:8g- absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%;
+}
+
+
+
+.main-hero-ee8g-sauna .content h1 {
+  color: #ffffff;
+  padding-top: 70px;
+  text-shadow: black 3px 3px 5px;
+  max-width: 1200px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 70px !important;
+  text-align: center;
+  padding: 10px 0;
+}
+.main-hero-ee8g-sauna-mobile {
+ display: none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* End of sauna hero */
 
 
@@ -1896,5 +1951,6 @@ form.contFrm {
   }
 
 }
+
 
 
